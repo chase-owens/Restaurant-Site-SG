@@ -1,0 +1,151 @@
+body {
+  min-width: 400px;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.restaurant-name,
+.new-news,
+section,
+footer {
+  text-align: center;
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.restaurant-name {
+  font-family: "Indie Flower", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #6760aa;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: #000;
+}
+
+.nav-item {
+  background-color: #dfffff;
+}
+
+.here {
+  background-color: #7f9fd0;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+section {
+  background-color: #acd0ea;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+figure {
+  margin: auto;
+}
+
+figcaption {
+  font-size: 0.7em;
+}
+
+.patti-description {
+  width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.menu {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.cake-name {
+  font-size: 1.2em;
+}
+
+.beverages {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+.beverage-price {
+  width: 30%;
+}
+
+.beverage-name {
+  width: 70%;
+}
+
+table {
+  width: 100%;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #6760aa;
+  color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: darkblue;
+  color: #fff;
+}
+
+tr,
+th {
+  height: 25px;
+}
+
+.form-label {
+  text-align: right;
+  font-weight: bold;
+}
+
+.form-input {
+  text-align: left;
+}
+
+.btn {
+  background-color: #6760aa;
+  color: #fff;
+}
+
+footer {
+  height: 90px;
+}
+
+.footer-content {
+  padding-top: 20px;
+}
+
+i {
+  padding-left: 10px;
+}

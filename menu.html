@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Menu</title>
+  <meta name="description" content="DESCRIPTION">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/restaurantStyles.css">
+
+  <!--[if lt IE 9]>
+       <script src = " http://html5shiv.googlecode.com/svn/trunk/html5.js">
+    </script> <![endif]-->
+</head>
+
+<body container-fluid>
+
+  <header>
+    <div class="restaurant-name-wrapper jumbotron">
+      <h1 class="restaurant-name display-4">Patti Cakes</h1>
+      <hr class="my-4">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="new-news">New location opening on the square!!</p>
+          </div>
+          <div class="carousel-item">
+            <p cass="new-news">We're rolling out our seasonal menu, with special options for this season.</p>
+          </div>
+          <div class="carousel-item">
+            <p cass="new-news">The Drink of the Month is SG Special Brew.</p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <nav>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link here" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="menu row">
+      <article class="menu-item col-6 col-md-4">
+        <h4 class="cake-name">Chocolate Rasberry</h4>
+        <p class="tag-line">Patti Cakes most decorated!</p>
+        <p class="description">Made with a perfect mix of dark and milk chocolate, truffle, and fresh rasberries</p>
+        <p class="price">$5.95</p>
+      </article>
+
+      <article class="menu-item col-6 col-md-4">
+        <h4 class="cake-name">Bananna Cream</h4>
+        <p class="tag-line">Moist Moist Moist</p>
+        <p class="description">No matter your feelings toward the word Moist, you'll love this Moist treat</p>
+        <p class="price">$5.95</p>
+      </article>
+
+      <article class="menu-item col-6 col-md-4">
+        <h4 class="cake-name">Chocolate Spice</h4>
+        <p class="tag-line">Reigning Chef Cup Winner</p>
+        <p class="description">Meant to share and comes with a bottle of Malbec or Shiraz</p>
+        <p class="price">$57.95</p>
+      </article>
+
+      <article class="menu-item col-6 col-md-4">
+        <h4 class="cake-name">Wedding Cake</h4>
+        <p class="tag-line">A Wedding Favorite</p>
+        <p class="description">Meant to accompany your wedding cake - Also called "The Bun in the Oven"</p>
+        <p class="price">$199.95</p>
+      </article>
+
+      <article class="menu-item col-6 col-md-4">
+        <h4 class="cake-name">Cupid's Kiss</h4>
+        <p class="tag-line">Be My Valentine</p>
+        <p class="description">Chocolate cake served with a 10-year Taylor Fladgate</p>
+        <p class="price">$35.95</p>
+      </article>
+
+      <article class="menu-item col-6 col-md-4">
+        <h4 class="cake-name">The Roger Rabbit</h4>
+        <p class="tag-line">The Spice of Life</p>
+        <p class="description">A delicous carrot cake with brevarian cream icing served accompanied wth Shiner Blonde</p>
+        <p class="price">$15.95</p>
+      </article>
+    </div>
+
+    <div class="beverages">
+      <table>
+        <th colspan="2" class="beverage-header">Beverages</th>
+        <tbody>
+          <tr row>
+            <td class="beverage-name">Lemonade</td>
+            <td class="beverage-price">$1.95</td>
+          </tr>
+          <tr row>
+            <td class="beverage-name">Root Beer</td>
+            <td class="beverage-price">21.95</td>
+          </tr>
+          <tr row>
+            <td class="beverage-name">Sweet Tea</td>
+            <td class="beverage-price">$1.95</td>
+          </tr>
+          <tr row>
+            <td class="beverage-name">Bottled Water</td>
+            <td class="beverage-price">$4.95</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <div class="footer-content">
+      <p>1000 Main Street, Dallas, Texas, 75038</p>
+      <p>(214) 972-4690</p>
+    </div>
+  </footer>
+
+</body>
+<script src="scripts/menu.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+<noscript>
+  <p>Website works best with JavaScript enabled.</p>
+</noscript>
+
+</html>
