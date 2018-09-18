@@ -1,4 +1,4 @@
-#Patti Cakes
+# Patti Cakes
 
 ---
 
@@ -8,7 +8,7 @@ Patti Cakes is a webpage built for The Software Guilde's Intro to Web Developmen
 
 ![Menu Image](https://farm2.staticflickr.com/1857/43858402175_722cbfe3b7_h.jpg)
 
-##Contributors
+## Contributors
 
 This website was formatted with [Bootstrap 4](https://getbootstrap.com).
 Fonts were provided by [Google Fonts](https://fonts.google.com/?selection.family=Indie+Flower).
