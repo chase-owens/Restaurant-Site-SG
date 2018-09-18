@@ -2,7 +2,7 @@
 
 ---
 
-Patti Cakes is a webpage built for The Software Guilde's Intro to Web Development Course. To view a live version of the website [click here]().
+Patti Cakes is a webpage built for The Software Guilde's Intro to Web Development Course. To view a live version of the website [click here](https://chase-owens.github.io/Restaurant-Site-SG/).
 
 ![Home Image](https://farm2.staticflickr.com/1841/29830639007_7271586128_h.jpg)
 
