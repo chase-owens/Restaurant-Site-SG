@@ -10,7 +10,7 @@ Patti Cakes is a webpage built for The Software Guilde's Intro to Web Developmen
 
 ## Contributors
 
-This website was formatted with [Bootstrap 4](https://getbootstrap.com).
-Fonts were provided by [Google Fonts](https://fonts.google.com/?selection.family=Indie+Flower).
-Icons were retreived from [Font Awesome](https://fontawesome.com/icons?d=gallery).
-Stylying was guided by theme colors from [Color Hex](https://www.color-hex.com/color-palette/65486).
+- This website was formatted with [Bootstrap 4](https://getbootstrap.com).
+- Fonts were provided by [Google Fonts](https://fonts.google.com/?selection.family=Indie+Flower).
+- Icons were retreived from [Font Awesome](https://fontawesome.com/icons?d=gallery).
+- Stylying was guided by theme colors from [Color Hex](https://www.color-hex.com/color-palette/65486).
